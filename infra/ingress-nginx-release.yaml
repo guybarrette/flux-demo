@@ -15,6 +15,6 @@ spec:
   install:
     createNamespace: true
   interval: 1m0s
-  releaseName: redis
-  targetNamespace: ingress-nginx
+  releaseName: ingress-nginx
+  targetNamespace: cluster-config
 

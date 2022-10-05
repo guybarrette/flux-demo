@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: nginx
+  name: redis
   namespace: cluster-config
 spec:
   interval: 10m0s

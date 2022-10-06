@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp
+  name: myappsvc
   namespace: default
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: myapp
   ports:

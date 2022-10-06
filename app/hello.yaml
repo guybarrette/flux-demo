@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: k8sacademy/hello-app:2.0
+        image: k8sacademy/hello-app:1.0
         resources:
           limits:
             memory: "32Mi"
